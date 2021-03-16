@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App{
   text-align: center;
   font-size: large;
@@ -9,6 +14,7 @@
 }
 .emoji li{
   list-style: none;
+  
 }
 .emoji{
   text-align: left;
@@ -21,4 +27,15 @@
 }
 .emoji :hover{
   background-color: gray;
+}
+.info{
+  float: right;
+  /* position: absolute; */
+  display: none;
+}
+li{
+  float: left;
+}
+.emoji:hover .info{
+  display: block;
 }
